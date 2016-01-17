@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SoRT-VESIT</title>
+		<script type="text/javascript">
+		</script>	
+		<style type="text/css">
+		h6
+		{
+		text-shadow:1px 1px 2px #0000FF;
+		top:400px;
+		left:500px;
+		font-size:30px;
+		}
+		h1
+		{
+		font-size:60px;
+		}
+		h2
+		{
+		position:absolute;
+		left:50px;
+		font-size:30px;
+		}
+
+		a:link    {color:whit;}
+		a:visited {color:white;}
+		a:hover   {color:#c0c0c0;}		
+		#main
+		{
+		padding:50px 20px;
+		border:2px solid black;
+		border-radius:25px;
+		position:absolute;
+		width:1000px;
+		left:11%;
+		top:150px;
+		height:820px;
+		background-color:white;
+		}
+		#test td,th
+		{
+		border:0px;
+		border-radius:10px;
+		background-color:#303030;
+		font-size:18px;
+		font-weight:bold;
+		}
+		#list
+		{
+		padding:20px 10px;
+		border:2px solid black;
+		border-radius:25px;
+		position:absolute;
+		width:430px;
+		left:33%;
+		top:300px;
+		height:710px;
+		background-image:url('red1.jpg');
+		}
+		</style>		
+	</head>
+	<body background="red1.jpg">
+	<p>
+	
+	     <center><h1><b>Shubhmangal Wedding Management</b></h1></center>
+	</p>
+		
+	<div id=main>            
+        
+	<table id="test" width="950" height="40" border="0" align="center">
+	<tr>
+	<td align="center"><a href="Home.html">Home</a></td>
+	<td align="center"><a href="Insertion.html">Insert</a></td>
+	<td align="center"><a href="Update.html">Update</a></td>
+    <td align="center"><a href="Deletion.html">Delete</a></td>
+    <td align="center"><a href="showrecord.html">Records</a></td>
+    <td align="center"><a href="aboutus.html">About us</a></td>
+	</tr>
+	</table>
+		<hr>
+	</div>
+	<div id=list>
+	<h2>Registration Form for Simple Plan</h2><br><br><br><br><br><br><b>
+<table border="3" cellpadding="10" cellspacing="10" align="center">
+<form action="http://localhost:8080/ADBMS%20Mini%20Project/ClientSimple.php"  name="ClientSimple" method="post">
+<tr><td>Name:</td><td><input type="text" name="Name"><br></td></tr>
+<tr><td>Contact no:</td><td><input type="text" name="Contact_No"><br></td></tr>
+<tr><td>Address:</td> <td><input type="textarea" name="Address"><br></td></tr>
+<tr><td>Venue: </td><td><input type="text" name="Venue"><br></td></tr>
+<tr><td>Band_DJ: </td><td>
+<select name="Band_DJ">
+<option value="Bhimrao Bands">Bhimrao Bands</option>
+<option value="Mohan Bandwala">Mohan Bandwala</option>
+</select><br></td></tr>
+<tr><td>Photographer: </td><td>
+<select name="Photographer">
+<option value="Rajesh Photography">Rajesh Photography</option>
+<option value="Kale Photography">Kale Photography</option>
+</select><br></td></tr>
+<tr><td>Decorater: </td><td>
+<select name="Decorater">
+<option value="Shambhu Decorater">Shambhu Decorater</option>
+<option value="Kashyap Flowerist">Kashyap Flowerist</option>
+</select><br></td></tr>
+<tr><td>Caterer: </td><td>
+<select name="Caterer">
+<option value="Annapurna Caterers">Annapurna Caterers</option>
+<option value="Mattani Caterers">Mattani Caterers</option>
+</select><br></td></tr>
+<tr><td>Wedding_Date: </td><td><input type="text" name="Wedding_Date"><br></td></tr>
+<tr><td colspan="2"><center><input type="submit" value="Insert"></center></tr></td>
+</form>
+</table></b>
+<br>
+</div>
+</body>	
+</html>
